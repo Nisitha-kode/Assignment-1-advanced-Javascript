@@ -3,7 +3,7 @@
  */
 
 //function that takes 2 parameters with default values
-function greeting (...parameters) {
+function greeting (...args) {
   let text1 = 'hi',
     text2 = 'hello'
   console.log(text1, text2)
