@@ -6,8 +6,8 @@
  */
 
 //function that receives parameters using spread syntax
-function greeting (...parameters) {
-  let [text1, text2] = parameters
+function greeting (...args) {
+  let [text1, text2] = args
   console.log(text1, text2)
 }
 greeting(null, 'say bye')
